@@ -44,10 +44,10 @@
         <img src="assets/logo.png" alt="logo" />
       </div>
       <div>
-        <ul class="flex space-x-4">
-          <li class="text-base font-bold"><a href="">Home</a></li>
-          <li class="secondary-color"><a href="">Shop</a></li>
-          <li class="secondary-color"><a href="">About Us</a></li>
+        <ul class="flex space-x-4 items-center">
+          <li class="text-base font-bold hidden md:block"><a href="">Home</a></li>
+          <li class="secondary-color hidden md:block"><a href="">Shop</a></li>
+          <li class="secondary-color hidden md:block"><a href="">About Us</a></li>
           <li>
             <div class="flex items-center space-x-1">
               <span class="material-symbols-outlined">shopping_cart</span>
@@ -59,29 +59,26 @@
   </header>
   <main>
     <section>
-      <div class="flex mx-40 mt-55 mb-30 items-center">
+      <div class=" flex-column-reverse md:flex md:mx-40 mt-55 mb-30 items-center">
         <div>
           <h1 class="font-noto-serif font-bold text-6xl">ALWAYS <span class="primary-color">FRESH <br>FLOWERS</span>
           </h1>
-          <p class="secondary-color text-2xl mt-3">Indulge your senses with the beauty and fragrance of our fresh
-            flowers
-            shop. From classic roses to exotic
-            blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+          <p class="secondary-color text-2xl mt-3">Indulge your senses with the beauty and fragrance of our fresh flowers shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
         <img src="assets/hero-flower.png" alt="fresh flowers">
       </div>
     </section>
 
     <section>
-      <div class="flex flex-col items-center mx-38 md-20">
+      <div class="flex flex-col items-center md:mx-38 md-20">
         <div>
           <h1 class="font-noto-serif font-bold text-5xl text-center mb-4"><span class="primary-color">Our</span> Plants
           </h1>
-          <p class="text-xl secondary-color text-center mx-50 mb-13">Indulge your senses with the beauty and fragrance
+          <p class="text-xl secondary-color text-center md:mx-50 mb-13">Indulge your senses with the beauty and fragrance
             of our
             fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
-        <div class="grid grid-cols-4 gap-x-4 gap-y-5">
+        <div class="grid grid-cols-2 p-4 md:grid-cols-4 gap-x-4 gap-y-5">
           <div class="">
             <img src="assets/sample-flower-image.png" alt="flowers">
             <div class="">
@@ -151,9 +148,9 @@
     </section>
 
     <section>
-      <div class="flex ml-[150px] mr-[150px] mt-[210px] mb-[130px] justify-center gap-x-16 relative">
+      <div class="m-5 md:flex md:ml-[150px] md:mr-[150px] md:mt-[210px] md:mb-[130px] md:justify-center md:gap-x-16 relative">
         <img src="assets/trusted-badge.png" alt="Trusted badge"
-          class="absolute w-[286px] -top-[12px] left-0 right-0 mx-auto z-10" style="transform: translateY(-50%);">
+          class="hidden md:absolute w-[286px] -top-[12px] left-0 right-0 mx-auto z-10" style="transform: translateY(-50%);">
         <div>
           <img src="assets/flower-store.png" alt="Flower Store" class="w-[540px] h-[597px]">
         </div>
@@ -176,7 +173,7 @@
 
     <section class="mb-30">
       <h1 class="font-noto-serif font-bold text-5xl text-center"><span class="primary-color">Latest</span> Deals</h1>
-      <p class="font-normal text-2xl text-center secondary-color ml-[276px] mr-[276px] mt-[20px] mb-0">Indulge your
+      <p class="font-normal text-2xl md:text-center secondary-color md:ml-[276px] md:mr-[276px] mt-[20px] mb-0">Indulge your
         senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a
         wide variety of fresh.</p>
     </section>
