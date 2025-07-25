@@ -1,0 +1,4 @@
+@import "tailwindcss";
+:root {
+    --font-display: "Satoshi", "sans-serif";
+}
